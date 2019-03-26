@@ -1,0 +1,19 @@
+{
+  "name": "taajerkom",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android-linux": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android"
+  },
+  "dependencies": {
+    "git": "^0.1.5",
+    "gradle": "^1.0.9",
+    "react": "16.8.3",
+    "react-native": "0.59.1",
+    "react-native-elements": "^1.1.0",
+    "react-native-star-rating": "^1.1.0",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^2.0.4"
+  }
+}
